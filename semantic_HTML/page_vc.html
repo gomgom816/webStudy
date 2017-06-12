@@ -5,7 +5,7 @@
     <title>semantic HTML</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
+  <body id="target">
     <header>
       <h1><a href="http://localhost/webStudy/semantic_HTML/index.html">JavaScript</a></h1>
     </header>
@@ -20,6 +20,10 @@
         <li>객체</li>
       </ol>
     </nav>
+    <div id="control">
+      <input type="button" name="" value="white" onclick="document.getElementById('target').className='white'">
+      <input type="button" name="" value="black" onclick="document.getElementById('target').className='black'"">
+    </div>
 
     <article>
       <h2>변수와 상수</h2>

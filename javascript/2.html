@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      li {
+        color: blue;
+      }
+      ul li {
+        font-size: 40px;
+      }
+      .em {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <ol id="target">
+      <li class="em">html</li>
+      <li>css</li>
+      <li>javascript</li>
+    </ol>
+    <ul>
+      <li>홍길동</li>
+      <li class="em">마이콜</li>
+      <li>도우너</li>
+      <li>둘리</li>
+    </ul>
+    <input type="button" value="강조" onclick="document.getElementById('target').className='em'" />
+  </body>
+</html>
