@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2.4 Box Model</title>
+    <style media="screen">
+      p.d1 {
+        /*Apply to all four sides*/
+        border-style: dashed;
+      }
+      p.d2 {
+        /*horizontal | vertical*/
+        border-style: dotted solid;
+      }
+      p.d3 {
+        /*top | horizontal | bottom*/
+        border-style: hidden double dashed;
+      }
+      p.d4 {
+        /*top | right | bottom | left*/
+        border-style: none solid dotted dashed;
+      }
+
+      p {
+        background-color: palegreen;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="d1">Apply to all four sides</p>
+    <p class="d2">horizontal | vertical</p>
+    <p class="d3">top | horizontal | bottom</p>
+    <p class="d4">top | right | bottom | left</p>
+  </body>
+</html>
